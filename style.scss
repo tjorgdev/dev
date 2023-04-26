@@ -357,6 +357,9 @@ h3 {
     padding: 25px;
     flex-direction: column;
     .example-grid {
+        max-height: 65vh;
+        padding: 20px;
+        overflow-y: scroll;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }

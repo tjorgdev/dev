@@ -427,6 +427,9 @@ h3 {
 }
 
 .work-view .example-grid {
+  max-height: 65vh;
+  padding: 20px;
+  overflow-y: scroll;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
